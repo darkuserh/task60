@@ -1,6 +1,4 @@
 <?php
-$foo='Локальна зміна';
-
-var_dump($GLOBALS['foo']);
-
+$foo='Локальна змінна';
+var_dump($GLOBALS['foo'])
 ?>
