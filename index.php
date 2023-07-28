@@ -1,13 +1,6 @@
 <?php
-$number=10;
-var_dump($number);
-$name="Yuriy";
-var_dump($name);
-$available=true;
-var_dump($available);
-$PI=3.14;
-var_dump($PI);
-define("DATA",'Привіт,константи');
-$res=defined('DATA');
-var_dump(DATA);
+$foo='Локальна зміна';
+
+var_dump($GLOBALS['foo']);
+
 ?>
