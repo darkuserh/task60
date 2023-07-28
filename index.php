@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1><?php echo 'Hello World' ?></h1>
-</body>
-</html>
+<?php
+$number=10;
+var_dump($number);
+$name="Yuriy";
+var_dump($name);
+$available=true;
+var_dump($available);
+$PI=3.14;
+var_dump($PI);
+define("DATA",'Привіт,константи');
+$res=defined('DATA');
+var_dump(DATA);
+?>
