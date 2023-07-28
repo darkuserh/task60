@@ -1,14 +1,9 @@
 <?php
- $num=9;
-
-if ($num%2 == 0) {
-    echo 'Дане число парне';
-}else if($num / 3){
-    echo 'Дане число ділиться на 3';
-}else if($num / 6){
-    echo 'Дане число ділиться на 6'; 
-}  
-else {
-    echo 'Дане число непарне';
-}
+  $number = rand(25, 40);
+  if($number>27 && $number<30){
+    echo 'Попав!';
+  }
+  else{
+    echo 'Непопав';
+  }
 ?>
