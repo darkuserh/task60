@@ -1,5 +1,10 @@
 <?php
-$arr=['Привіт,','світ','!'];
-echo $arr[0].$arr[1].$arr[2] ;
+$salary=[
+    'Pety' => 1500,
+    'Colly' => 2000
+
+];
+print_r($salary['Pety']); echo '<br/>';
+print_r($salary['Colly']);
 
 ?>
