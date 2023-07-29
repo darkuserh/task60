@@ -1,10 +1,7 @@
 <?php
-$salary=[
-    'Pety' => 1500,
-    'Colly' => 2000
-
-];
-print_r($salary['Pety']); echo '<br/>';
-print_r($salary['Colly']);
-
+$colors = [
+    'ru' => ['голубой', 'красный', 'зеленый'],
+    'en' => ['blue', 'red', 'green'],
+    ];
+print_r($colors['en'][2])
 ?>
