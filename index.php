@@ -1,9 +1,10 @@
 <?php
-$i=0;
-$sum=0;
-while($i<100){
-$sum+=$i;
-$i++;
+$arr=[1, 2, 5, 9, 4, 13, 4, 10];
+foreach($arr as $key=>$element){
+    if($element == 4){
+        echo 'Є число';
+    }else{
+        echo 'Нічого не потрібно робити';
+    }
 }
-print_r($sum);
 ?>;
