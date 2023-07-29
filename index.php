@@ -1,11 +1,13 @@
 <?php
-$sum=0;
-$arr=[1,2,3,4,5,-6,3,-2];
-foreach($arr as $element){
-    if($element>0){
-        $sum+=$element;
+$number = 1000;
+while($number<50){
+    $number/2;
+}
+for($i=0;$i<$number;$i++){
+    if($i === 50){
+      break;
     }
 
-}
-print_r($sum)
+print_r($number);
+};
 ?>;
